@@ -1,0 +1,220 @@
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,300,500,600,700,800,900);
+// Bootstrap variables
+$dark: #333C45;
+// The padding on the main content to accomodate the header
+$padding-main-content: 80px;
+
+body {
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-size-adjust: 100%;
+    font-family: 'Raleway', sans-serif;
+    overflow-x: hidden;
+    background-color: #FFF;
+    color: #7a7a7a;
+    font-size: 14px;
+    font-weight: 500;
+}
+.container {
+    padding-right: 0;
+    padding-left: 0;
+}
+body,
+li,
+address {
+    line-height: 25px
+}
+input,
+button,
+select,
+textarea {
+    font-family: 'Raleway', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+}
+a {
+    color: #3f8dbf;
+    -webkit-transition: all 200ms ease-in;
+    -o-transition: all 200ms ease-in;
+    -moz-transition: all 200ms ease-in;
+}
+a:hover,
+a:focus {
+    color: #2e2e2e;
+    text-decoration: none;
+}
+.colored {
+    color: #3f8dbf
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Raleway', sans-serif;
+    margin-top: 0;
+    color: #616161;
+    margin-bottom: 10px;
+    font-weight: 800;
+}
+h1 {
+    font-size: 26px;
+    line-height: 30px;
+}
+h2 {
+    font-size: 22px;
+    line-height: 28px;
+}
+h3 {
+    font-size: 18px;
+    line-height: 22px;
+}
+h4 {
+    font-size: 16px;
+    margin-bottom: 8px;
+}
+h5 {
+    font-size: 14px
+}
+h6 {
+    font-size: 12px
+}
+
+body {
+  font-size: .875rem;
+}
+p.tagline {
+  font-size: .80rem;
+  text-align: center;
+  margin-top: 1rem;
+}
+
+/*
+ * Sidebar
+ */
+
+.sidebar {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 100; /* Behind the navbar */
+  padding: 48px 0 0; /* Height of navbar */
+  box-shadow: inset -1px 0 0 rgba(0, 0, 0, .1);
+}
+
+.sidebar-sticky {
+  position: relative;
+  top: $padding-main-content;
+  height: calc(100vh - $padding-main-content);
+  overflow-x: hidden;
+  overflow-y: auto; /* Scrollable contents if viewport is shorter than content. */
+}
+
+@supports ((position: -webkit-sticky) or (position: sticky)) {
+  .sidebar-sticky {
+    position: -webkit-sticky;
+    position: sticky;
+  }
+}
+
+.sidebar .nav-link {
+  font-weight: 500;
+  color: #333;
+}
+
+.sidebar .nav-link.active {
+  color: #007bff;
+}
+
+.sidebar-heading {
+  font-size: .75rem;
+  text-transform: uppercase;
+}
+
+.about-us {
+    margin-top: 5rem;
+    padding-top: 1rem;
+    border-top: 1px solid $dark;
+}
+/*
+ * Content
+ */
+
+[role="main"] {
+  padding-top: $padding-main-content; /* Space for fixed navbar */
+}
+
+/*-----------------------------------------------------------------------------------*/
+/*	SOCIAL ICONS
+/*-----------------------------------------------------------------------------------*/
+.social {
+    padding: 0;
+    margin: 0;
+    font-size: 0;
+    height: 28px;
+}
+.image-caption .social {
+    height: 33px
+}
+.social li {
+    display: inline-block;
+    font-family: 'fontello-social';
+    margin-right: 5px;
+}
+.text-center .social li {
+    margin: 0 2px
+}
+.member .social {
+    margin: 10px 0
+}
+.social li a {
+    display: table
+}
+.social li a i {
+    text-align: center;
+    display: table-cell;
+    vertical-align: middle;
+    color: #aaa;
+    background: none;
+    border: 1px solid #aaa;
+    width: 28px;
+    height: 28px !important;
+    line-height: 1;
+    font-size: 12px;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    -webkit-transition: all 200ms ease-in;
+    -o-transition: all 200ms ease-in;
+    -moz-transition: all 200ms ease-in;
+}
+.social .icon-s-twitter {
+    border-color: #70c2e9;
+    color: #70c2e9;
+}
+.social a:hover .icon-s-twitter {
+    background-color: #70c2e9
+}
+.social .icon-s-youtube {
+    border-color: #d5615c;
+    color: #d5615c;
+}
+.social a:hover .icon-s-youtube {
+    background-color: #d5615c
+}
+.social .icon-s-github {
+    border-color: #6c93bb;
+    color: #6c93bb;
+}
+.social a:hover .icon-s-github {
+    background-color: #6c93bb
+}
+.social a:hover a:hover i {
+    background-color: #FFF
+}
+.social a:hover i {
+    color: #FFF
+}
+.black-wrapper .social li a:hover i {
+    color: #FFF
+}

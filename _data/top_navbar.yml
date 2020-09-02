@@ -1,0 +1,6 @@
+- name: Contribute
+  link: /
+  target:
+- name: About Us
+  link: https://missionaldigerati.org/
+  target: _blank
