@@ -6,8 +6,11 @@
   <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
     <div class="navbar-nav">
       {% for item in site.data.top_navbar %}
-        <a href="{{ item.link }}" class="nav-item nav-link"{% if item.target != blank %} target="{{ item.target }}"{% endif %}> {{ item.name }}</a>
+        <a href="{{ item.link }}" class="nav-item nav-link{% if item.css != blank %} {{ item.css }}{% endif %}{% if item.slug == page.slug %} active{% endif %}"{% if item.target != blank %} target="{{ item.target }}"{% endif %}> {{ item.name }}</a>
       {% endfor %}
     </div>
+    <ul class="nav navbar-nav ml-auto">
+      <a class="btn btn-secondary btn-sm visit-md" href="https://missionaldigerati.org/">Visit Missional Digerati</a>
+    </ul>
   </div>
 </nav>

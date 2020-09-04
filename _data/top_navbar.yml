@@ -1,6 +1,15 @@
-- name: Contribute
-  link: /
+- name: Welcome
+  link: '/#welcome'
+  slug: home
   target:
-- name: About Us
-  link: https://missionaldigerati.org/
-  target: _blank
+  css: scroll-to
+- name: Code of Conduct
+  link: '/code-of-conduct'
+  slug: 'code-of-conduct'
+  target:
+  css:
+- name: Statement of Faith
+  link: '/statement-of-faith'
+  slug: 'statement-of-faith'
+  target:
+  css:
