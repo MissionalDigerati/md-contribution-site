@@ -13,6 +13,15 @@
       {% for item in top_nav %}
         <li class="nav-item">
           <a class="nav-link active{% if item.css != blank %} {{ item.css }}{% endif %}" href="{{ item.link }}">{% if item.icon != blank %}<i class="{{ item.icon }}"></i>{% endif %} {{ item.name }}</a>
+          {% if item.nav != blank %}
+            {% for subnav in item.nav %}
+              <ul>
+                <li class="nav-item">
+                  <a class="nav-link active{% if subnav.css != blank %} {{ subnav.css }}{% endif %}" href="{{ subnav.link }}">{% if subnav.icon != blank %}<i class="{{ subnav.icon }}"></i>{% endif %} {{ subnav.name }}</a>
+                </li>
+              </ul>
+            {% endfor %}
+          {% endif %}
         </li>
       {% endfor %}
     </ul>

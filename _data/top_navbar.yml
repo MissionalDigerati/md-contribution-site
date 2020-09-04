@@ -1,5 +1,5 @@
 - name: Welcome
-  link: '/#welcome'
+  link: '/'
   slug: home
   target:
   css: scroll-to

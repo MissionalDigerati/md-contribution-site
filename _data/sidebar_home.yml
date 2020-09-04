@@ -3,6 +3,10 @@ top:
     link: '#welcome'
     icon: 'icon-picons-home-2'
     css: 'scroll-to'
+  - name: Projects
+    link: '#projects'
+    icon: 'icon-picons-drawing'
+    css: 'scroll-to'
   - name: Security Issue
     link: '#security-issue'
     icon: 'icon-picons-alert'
