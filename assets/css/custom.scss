@@ -2,6 +2,7 @@
 // Bootstrap variables
 $dark: #333C45;
 $secondary: #3f8dbf;
+$info: #f9f9f9;
 $font-family-sans-serif: 'Raleway', sans-serif !default;
 $font-family-serif:      Georgia, "Times New Roman", Times, serif !default;
 $font-family-monospace:  Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace !default;
@@ -88,6 +89,9 @@ h6 {
 
 body {
     font-size: .875rem;
+}
+.text-black {
+    color: #000000;
 }
 .lead {
     margin: 1.5rem 0;

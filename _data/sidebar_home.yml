@@ -7,6 +7,10 @@ top:
     link: '#projects'
     icon: 'icon-picons-drawing'
     css: 'scroll-to'
+  - name: Report a Bug
+    link: '#report-a-bug'
+    icon: 'icon-picons-bug'
+    css: 'scroll-to'
   - name: Security Issue
     link: '#security-issue'
     icon: 'icon-picons-alert'
