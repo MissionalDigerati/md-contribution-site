@@ -11,6 +11,10 @@ top:
     link: '#report-a-bug'
     icon: 'icon-picons-bug'
     css: 'scroll-to'
+  - name: Request a Feature
+    link: '#request-a-feature'
+    icon: 'icon-picons-bulb'
+    css: 'scroll-to'
   - name: Security Issue
     link: '#security-issue'
     icon: 'icon-picons-alert'

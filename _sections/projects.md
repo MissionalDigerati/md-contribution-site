@@ -25,7 +25,7 @@ Here are a few projects that we have been working on:
     </div>
 </div>
 
-In order to contribute to any of the projects, you will first need to create a [free Github account](https://github.com/).  Once you have an account, you can visit each project's code repository using the *View Code* buttons above.  In each project's repository you will find:
+If you would like to learn more about each project, you can visit each project's code repository using the *View Code* buttons above.  In each project's repository you will find:
 
 <dl class="row">
     <dt class="col-xl-1 col-sm-2">Code</dt>
