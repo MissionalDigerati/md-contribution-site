@@ -15,6 +15,10 @@ top:
     link: '#request-a-feature'
     icon: 'icon-picons-bulb'
     css: 'scroll-to'
+  - name: Ask a Question
+    link: '#ask-a-question'
+    icon: 'icon-picons-chat'
+    css: 'scroll-to'
   - name: Security Issue
     link: '#security-issue'
     icon: 'icon-picons-alert'
