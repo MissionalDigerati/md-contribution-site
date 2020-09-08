@@ -29,7 +29,7 @@ If you would like to learn more about each project, you can visit each project's
 
 <dl class="row">
     <dt class="col-xl-1 col-sm-2">Code</dt>
-    <dd class="col-xl-11 col-sm-10">All of the source code resides on Github, and is free for anyone to download and use.</dd>
+    <dd class="col-xl-11 col-sm-10">All of the source code resides on GitHub, and is free for anyone to download and use.</dd>
     <dt class="col-xl-1 col-sm-2">Issues</dt>
     <dd class="col-xl-11 col-sm-10">The Issue Tracker provides the community a place to submit bug reports and feature requests.  The community members can also find issues that need help fixing.</dd>
     <dt class="col-xl-1 col-sm-2">Pull Requests</dt>
@@ -40,4 +40,4 @@ If you would like to learn more about each project, you can visit each project's
     <dd class="col-xl-11 col-sm-10">The wiki contains project specific documentation, which may include details about setting up a development environment, creating plugin guides, and how to run tests locally.</dd>
 </dl>
 
-If you are not familiar with Github, you may want to take a moment and browse one of the projects above.
+If you are not familiar with GitHub, you may want to take a moment and browse one of the projects above.

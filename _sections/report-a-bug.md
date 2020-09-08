@@ -1,6 +1,6 @@
 ## Report a Bug
 
-Our community uses Github Issue Tracking to track bug reports, feature requests and questions related to a project.  You should visit the specific project's code repository to report the bug.  See the [projects section](#projects){:.scroll-to} above.  Once there, click on the _Issues_ tab.  **Before you submit the bug report, you should search the issue tracker for a similar issue.**  If you are unable to find a similar issue, then:
+Our community uses GitHub Issue Tracking to track bug reports, feature requests and questions related to a project.  You should visit the specific project's code repository to report the bug.  See the [projects section](#projects){:.scroll-to} above.  Once there, click on the _Issues_ tab.  **Before you submit the bug report, you should search the issue tracker for a similar issue.**  If you are unable to find a similar issue, then:
 
 1. Click on the _New Issue_ button.
 2. Click the _Get Started_ button next to **Bug Report**.
