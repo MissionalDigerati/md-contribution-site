@@ -1,11 +1,11 @@
 ## Ask a Question
 
-Our community uses GitHub Issue Tracking to track bug reports, feature requests and questions related to a project.  You should visit the specific project's code repository to ask a question.  See the [projects section](#projects){:.scroll-to} above.  Once there, click on the _Issues_ tab.  
+Our community uses GitHub Issue Tracking to track questions related to a project.  You should visit the specific project's code repository to ask a question.  See the [projects section](#projects){:.scroll-to} above.  Once there, click on the _Issues_ tab.  
 
 **Before you submit a question, you should do the following:**
 
 1. Search the issue tracker for a similar question.
-2. Make sure the question has not been asked on [StackOverflow](https://stackoverflow.com/).
+2. Make sure the question has not been asked on [StackOverflow](https://stackoverflow.com/){:target="_blank"}.
 
 If it has not been answered, then:
 
