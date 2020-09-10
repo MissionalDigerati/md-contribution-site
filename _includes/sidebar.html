@@ -1,43 +1,41 @@
-<nav class="col-md-2 d-none d-md-block bg-info sidebar d-print-none">
-  <div class="sidebar-sticky" id="sidebar">
-    <ul class="nav flex-column">
-      {% if page.slug == 'home' %}
-        {% assign top_nav = site.data.sidebar_home.top %}
-      {% elsif page.slug == 'code-of-conduct' %}
-        {% assign top_nav = site.data.sidebar_cofc.top %}
-      {% elsif page.slug == 'statement-of-faith' %}
-          {% assign top_nav = site.data.sidebar_soff.top %}
-      {% endif %}
-      {% assign nav_size = top_nav | size %}
+<div class="sidebar-sticky" id="sidebar">
+  <ul class="nav flex-column">
+    {% if page.slug == 'home' %}
+      {% assign top_nav = site.data.sidebar_home.top %}
+    {% elsif page.slug == 'code-of-conduct' %}
+      {% assign top_nav = site.data.sidebar_cofc.top %}
+    {% elsif page.slug == 'statement-of-faith' %}
+        {% assign top_nav = site.data.sidebar_soff.top %}
+    {% endif %}
+    {% assign nav_size = top_nav | size %}
 
-      {% for item in top_nav %}
-        <li class="nav-item">
-          <a class="nav-link active{% if item.css != blank %} {{ item.css }}{% endif %}" href="{{ item.link }}">{% if item.icon != blank %}<i class="{{ item.icon }}"></i>{% endif %} {{ item.name }}</a>
-          {% if item.nav != blank %}
-            {% for subnav in item.nav %}
-              <ul>
-                <li class="nav-item">
-                  <a class="nav-link active{% if subnav.css != blank %} {{ subnav.css }}{% endif %}" href="{{ subnav.link }}">{% if subnav.icon != blank %}<i class="{{ subnav.icon }}"></i>{% endif %} {{ subnav.name }}</a>
-                </li>
-              </ul>
-            {% endfor %}
-          {% endif %}
-        </li>
-      {% endfor %}
+    {% for item in top_nav %}
+      <li class="nav-item">
+        <a class="nav-link active{% if item.css != blank %} {{ item.css }}{% endif %}" href="{{ item.link }}">{% if item.icon != blank %}<i class="{{ item.icon }}"></i>{% endif %} {{ item.name }}</a>
+        {% if item.nav != blank %}
+          {% for subnav in item.nav %}
+            <ul>
+              <li class="nav-item">
+                <a class="nav-link active{% if subnav.css != blank %} {{ subnav.css }}{% endif %}" href="{{ subnav.link }}">{% if subnav.icon != blank %}<i class="{{ subnav.icon }}"></i>{% endif %} {{ subnav.name }}</a>
+              </li>
+            </ul>
+          {% endfor %}
+        {% endif %}
+      </li>
+    {% endfor %}
+  </ul>
+
+  <!-- <h6 class="sidebar-heading d-flex justify-content-between align-items-center px-3 mt-4 mb-1 text-muted">
+    <span>Saved reports</span>
+  </h6> -->
+  <div class="text-center about-us{% if nav_size == 0 %} no-nav{% endif %}">
+    <img src="{{ '/assets/img/logo-dark.png' | relative_url }}" data-at2x="{{ '/assets/img/logo-dark@2x.png' | relative_url }}" class="img-fluid" alt="Missional Digerati">
+    <p class="tagline">Missional Digerati is a Christian non-profit mobile and web app development team dedicated to leveraging technology for the purpose of delivering the Gospel to every nation.</p>
+    <ul class="social">
+      <li><a href="https://github.com/MissionalDigerati" target="_top"><i class="icon-s-github"></i></a></li>
+      <li><a href="https://twitter.com/M_Digerati" target="_top"><i class="icon-s-twitter"></i></a></li>
+      <li><a href="https://www.youtube.com/channel/UCGg2yFHmlkkL17FhcPuANmg" target="_top"><i class="icon-s-youtube"></i></a></li>
+      <li><a href="https://missionaldigerati.org" target="_top"><i class="icon-s-website"></i></a></li>
     </ul>
-
-    <!-- <h6 class="sidebar-heading d-flex justify-content-between align-items-center px-3 mt-4 mb-1 text-muted">
-      <span>Saved reports</span>
-    </h6> -->
-    <div class="text-center about-us{% if nav_size == 0 %} no-nav{% endif %}">
-      <img src="{{ '/assets/img/logo-dark.png' | relative_url }}" data-at2x="{{ '/assets/img/logo-dark@2x.png' | relative_url }}" class="img-fluid" alt="Missional Digerati">
-      <p class="tagline">Missional Digerati is a Christian non-profit mobile and web app development team dedicated to leveraging technology for the purpose of delivering the Gospel to every nation.</p>
-      <ul class="social">
-        <li><a href="https://github.com/MissionalDigerati" target="_top"><i class="icon-s-github"></i></a></li>
-        <li><a href="https://twitter.com/M_Digerati" target="_top"><i class="icon-s-twitter"></i></a></li>
-        <li><a href="https://www.youtube.com/channel/UCGg2yFHmlkkL17FhcPuANmg" target="_top"><i class="icon-s-youtube"></i></a></li>
-        <li><a href="https://missionaldigerati.org" target="_top"><i class="icon-s-website"></i></a></li>
-      </ul>
-    </div>
   </div>
-</nav>
+</div>

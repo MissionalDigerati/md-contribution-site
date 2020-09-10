@@ -14,4 +14,6 @@ slug: home
 
 {% include_relative _sections/ask-a-question.md %}
 
+{% include_relative _sections/submit-code.md %}
+
 {% include_relative _sections/security-contact.md %}

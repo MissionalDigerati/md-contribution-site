@@ -90,6 +90,11 @@ h6 {
 body {
     font-size: .875rem;
 }
+
+ul > li > ul {
+    list-style: none;
+    padding-left: 1.25rem;
+}
 .text-black {
     color: #000000;
 }

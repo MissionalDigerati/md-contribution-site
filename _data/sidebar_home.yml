@@ -19,6 +19,39 @@ top:
     link: '#ask-a-question'
     icon: 'icon-picons-chat'
     css: 'scroll-to'
+  - name: Submit Code
+    link: '#submit-code'
+    icon: 'icon-picons-new'
+    css: 'scroll-to'
+    nav:
+      - name: Create a Pull Request
+        link: '#create-a-pull-request'
+        icon: 'icon-picons-configuration-2'
+        css: 'scroll-to'
+      - name: Which Branch?
+        link: '#which-branch'
+        icon: 'icon-picons-diagram'
+        css: 'scroll-to'
+      - name: Code Styling
+        link: '#code-styling'
+        icon: 'icon-picons-feather'
+        css: 'scroll-to'
+      - name: Code Testing
+        link: '#code-testing'
+        icon: 'icon-picons-lab'
+        css: 'scroll-to'
+      - name: Code Versioning
+        link: '#code-versioning'
+        icon: 'icon-picons-plant'
+        css: 'scroll-to'
+      - name: Code Documentation
+        link: '#code-documentation'
+        icon: 'icon-picons-book-shelf-2'
+        css: 'scroll-to'
+      - name: Pull Request Checklist
+        link: '#pull-request-checklist'
+        icon: 'icon-picons-list-check'
+        css: 'scroll-to'
   - name: Security Issue
     link: '#security-issue'
     icon: 'icon-picons-alert'
