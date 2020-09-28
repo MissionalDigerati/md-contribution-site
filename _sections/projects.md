@@ -5,21 +5,12 @@ Here are a few projects that we have been working on:
 <div class="row project-list">
     <div class="col-12 col-sm-6 col-lg-4 col-xl-3">
         <div class="card">
-            <img class="card-img-top" src="http://placekitten.com/800/800" alt="Card image cap">
+            <img class="card-img-top" src="{{ '/assets/img/digital-atlas.png' | relative_url }}" alt="Digital Atlas">
             <div class="card-body">
-                <h5 class="card-title">Project 1</h5>
-                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                <a href="#" class="btn btn-primary" target="_blank">View Code</a>
-            </div>
-        </div>
-    </div>
-    <div class="col-12 col-sm-6 col-lg-4 col-xl-3">
-        <div class="card">
-            <img class="card-img-top" src="http://placekitten.com/700/700" alt="Card image cap">
-            <div class="card-body">
-                <h5 class="card-title">Project 2</h5>
-                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                <a href="#" class="btn btn-primary" target="_blank">View Code</a>
+                <h5 class="card-title">Digital Atlas</h5>
+                <p class="card-text">A website detailing the digital and spiritual landscape of each country in the world.</p>
+                <a href="https://github.com/MobMin/digital_atlas" class="btn btn-primary" target="_blank">View Code</a>
+                <a href="https://digital-atlas.org" class="btn btn-link" target="_blank">Visit Site</a>
             </div>
         </div>
     </div>
