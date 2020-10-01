@@ -61,7 +61,7 @@ As developers, we want to ensure our code is written clean and clear for future 
 
 ### Code Testing
 
-One of the best wants to ensure your code runs correctly all the time, is to back your code with a set of tests.  These tests are run every time we receive a pull requests, and push out the latest release.  Developers can also run these tests locally in order to ensure the code they are introducing does not break another piece of code.  **All pull requests must contain at least one test to ensure the code is working properly**.  Each project will outline which frameworks they use for testing and instructions on how to run the tests in their Github wiki page.
+One of the best ways to ensure your code runs correctly all the time, is to back your code with a set of tests.  These tests are run every time we receive a pull requests, and push out the latest release.  Developers can also run these tests locally in order to ensure the code they are introducing does not break another piece of code.  **All pull requests must contain at least one test to ensure the code is working properly**.  Each project will outline which frameworks they use for testing and instructions on how to run the tests in their Github wiki page.
 
 ### Code Versioning
 
